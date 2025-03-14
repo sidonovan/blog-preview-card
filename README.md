@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://blog-preview-card-tau-nine.vercel.app/](https://blog-preview-card-tau-nine.vercel.app/)
 
 ## My process
 
@@ -42,8 +42,6 @@ Users should be able to:
 - :hover pseudo class to provide necessary interactive functionality
 
 ### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 Using the :hover pseudo class to provide interactivity:
 
