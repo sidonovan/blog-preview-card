@@ -1,0 +1,110 @@
+:root {
+  --clr-White: #ffffff;
+  --clr-Yellow: #f4d04e;
+  --clr-Gray-950: #111111;
+  --clr-Gray-500: #6b6b6b;
+}
+
+body {
+  font-family: 'Figtree', sans-serif;
+  background-color: var(--clr-Yellow);
+}
+
+.container {
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: clamp(327px, 306.9296px + 5.3521vw, 384px);
+  background-color: #ffffff;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 20px;
+  border: 1px solid var(--clr-Gray-950);
+  box-shadow: 8px 8px 0px 0px #000;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.5rem;
+}
+
+.card__image {
+  width: clamp(279px, 262.7143px + 5.0893vw, 336px);
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.75rem;
+}
+
+.card__content-category {
+  width: clamp(73px, 70.4286px + 0.8036vw, 82px);
+  background-color: var(--clr-Yellow);
+  padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+  font-size: clamp(12px, 11.4286px + 0.1786vw, 14px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+  color: var(--clr-Gray-950);
+  border-radius: 4px;
+}
+
+.card__content-date {
+  color: var(--clr-Gray-950);
+  font-size: clamp(12px, 11.4286px + 0.1786vw, 14px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.card__content-heading {
+  color: var(--clr-Gray-950);
+  font-size: clamp(20px, 18.5915px + 0.3756vw, 24px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+}
+
+.card__content-heading:hover {
+  color: var(--clr-Yellow);
+  cursor: pointer;
+}
+
+.card__content-description {
+  color: var(--clr-Gray-500);
+  font-size: clamp(14px, 13.4286px + 0.1786vw, 16px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.card__footer {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.card__footer-image {
+  width: 32px;
+  height: 32px;
+}
+
+.card__footer-name {
+  color: var(--clr-Gray-950);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
