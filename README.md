@@ -65,7 +65,3 @@ Using the clamp() function to provide smooth responsive design:
 ### Useful resources
 
 - [Clamp Calculator](https://utopia.fyi/clamp/calculator?a=320,1440) - This helped me to generate the CSS clamp coefficents based on custom viewport height, width and min, max px inputs.
-
-## Author
-
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
